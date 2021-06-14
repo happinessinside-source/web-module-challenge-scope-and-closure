@@ -65,11 +65,16 @@ Use the inning function below to do the following:
 NOTE: This will be a callback function for the tasks below
 */
 
-function inning(inning) {
-    return score = number;
-
+function inning() {
+    for (let i = 0; i < 2; i++) {
+        var points = (Math.random());
+        console.log(points);
+    }
 }
-console.log(math.random());
+
+inning();
+
+
 
 
 /* ⚾️⚾️⚾️ Task 3: finalScore() ⚾️⚾️⚾️
